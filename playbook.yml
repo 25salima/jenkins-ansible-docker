@@ -1,6 +1,6 @@
 
 - name: install wartest
-  hosts: centos
-  become: yes
+  hosts: all
+  become: true
   roles:
     - wartest
